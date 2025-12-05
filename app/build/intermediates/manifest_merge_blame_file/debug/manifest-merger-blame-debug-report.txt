@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mic.smsgame.suquan"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/truongvanlong/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.mic.smsgame.suquan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/truongvanlong/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/truongvanlong/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.mic.smsgame.suquan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/truongvanlong/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/truongvanlong/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:5:5-25:19
+18        android:allowBackup="true"
+18-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/truongvanlong/.gradle/caches/transforms-3/8c25e88eb4ea76e8f3d0900731d8ae12/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:fullBackupContent="@xml/backup_rules"
+22-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:8:9-54
+23        android:icon="@drawable/icon"
+23-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:9:9-38
+24        android:label="@string/app_name"
+24-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:10:9-41
+25        android:roundIcon="@drawable/icon"
+25-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:11:9-43
+26        android:supportsRtl="true"
+26-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:12:9-35
+27        android:testOnly="true"
+28        android:theme="@style/Theme.Loan12SuQuan" >
+28-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:13:9-50
+29        <activity
+29-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:15:9-24:20
+30            android:name="com.mic.smsgame.suquan.MainActivity"
+30-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:16:13-41
+31            android:configChanges="orientation|keyboardHidden|screenSize"
+31-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:19:13-74
+32            android:exported="true"
+32-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:17:13-36
+33            android:screenOrientation="portrait" >
+33-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:18:13-49
+34            <intent-filter>
+34-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:20:13-23:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:21:17-69
+35-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:21:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:22:17-77
+37-->/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/src/main/AndroidManifest.xml:22:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+43            android:authorities="com.mic.smsgame.suquan.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.2.0] /Users/truongvanlong/.gradle/caches/transforms-3/0fef484d2d7d3612c69865f977f8c08f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/truongvanlong/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/truongvanlong/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/truongvanlong/.gradle/caches/transforms-3/ae3e8265de2d7f874c642be745cd48da/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>

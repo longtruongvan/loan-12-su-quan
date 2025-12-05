@@ -1,0 +1,29 @@
+package javax.microedition.media;
+
+public interface Player extends Controllable {
+    void realize() throws MediaException;
+
+    void prefetch() throws MediaException;
+
+    void start() throws MediaException;
+
+    void stop() throws MediaException;
+
+    void deallocate();
+
+    void close();
+
+    long setMediaTime(long now) throws MediaException;
+
+    long getMediaTime();
+
+    int getState();
+
+    long getDuration();
+
+    void setLoopCount(int count);
+
+    void addPlayerListener(PlayerListener playerListener);
+
+    void removePlayerListener(PlayerListener playerListener);
+}

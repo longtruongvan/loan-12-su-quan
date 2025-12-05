@@ -1,0 +1,24 @@
+# Gradle
+.gradle/
+build/
+
+# Local configuration file (sdk.dir, etc.)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+.DS_Store
+
+# Native C/C++
+.cxx/
+.externalNativeBuild/
+
+# Misc
+captures/
+.externalNativeBuild
+fastlane/
+gradle-8.0-bin.zip

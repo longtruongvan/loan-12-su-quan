@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/truongvanlong/.gradle/daemon/8.0/com.mic.smsgame.suquan.app-merged_res-28:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/truongvanlong/.gradle/daemon/8.0/com.mic.smsgame.suquan.app-main-30:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.mic.smsgame.suquan.app-merged_res-28:/drawable_icon.png.flat",
+        "source": "com.mic.smsgame.suquan.app-main-30:/drawable/icon.png"
+    },
+    {
+        "merged": "/Users/truongvanlong/.gradle/daemon/8.0/com.mic.smsgame.suquan.app-merged_res-28:/xml_backup_rules.xml.flat",
+        "source": "/Users/truongvanlong/.gradle/daemon/8.0/com.mic.smsgame.suquan.app-main-30:/xml/backup_rules.xml"
+    }
+]
