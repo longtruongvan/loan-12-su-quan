@@ -1,4 +1,4 @@
-#Fri Dec 05 22:45:25 ICT 2025
+#Fri Dec 05 22:57:51 ICT 2025
 base.0=/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.10=/Users/truongvanlong/Documents/GitHub/loan-12-su-quan/app/build/intermediates/dex/debug/mergeProjectDexDebug/5/classes.dex

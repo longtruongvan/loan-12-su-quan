@@ -15,7 +15,8 @@ public class Image {
 
     public static Image createImage(String name) throws java.io.IOException {
         try {
-            java.io.InputStream is = Image.class.getResourceAsStream(name);
+            String assetPath = name.startsWith("/") ? name.substring(1) : name;
+            java.io.InputStream is = javax.microedition.midlet.MIDlet.getActivity().getAssets().open(assetPath);
             if (is == null)
                 throw new java.io.IOException("Image not found: " + name);
             return createImage(is);
